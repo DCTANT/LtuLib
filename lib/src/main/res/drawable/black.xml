@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--8dp圆角，灰色背景，长方形按钮效果-->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+	android:shape="rectangle">
+	<solid android:color="#aaaaaaaa"/>
+</shape>

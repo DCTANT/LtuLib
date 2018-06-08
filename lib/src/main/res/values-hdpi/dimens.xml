@@ -1,0 +1,37 @@
+<resources>
+    <dimen name="progress_size">24dip</dimen>
+    
+    <dimen name="hdpi_8dip">8dip</dimen>
+    <dimen name="hdpi_9dip">9dip</dimen>
+    <dimen name="hdpi_10dip">10dip</dimen>
+    <dimen name="hdpi_11dip">11dip</dimen>
+    <dimen name="hdpi_12dip">12dip</dimen>
+    <dimen name="hdpi_13dip">13dip</dimen>
+    <dimen name="hdpi_14dip">14dip</dimen>
+    <dimen name="hdpi_15dip">15dip</dimen>
+    <dimen name="hdpi_16dip">16dip</dimen>
+    <dimen name="hdpi_17dip">17dip</dimen>
+    <dimen name="hdpi_18dip">18dip</dimen>
+    <dimen name="hdpi_19dip">19dip</dimen>
+    <dimen name="hdpi_20dip">20dip</dimen>
+    <dimen name="hdpi_21dip">21dip</dimen>
+    <dimen name="hdpi_22dip">22dip</dimen>
+    <dimen name="hdpi_25dip">25dip</dimen>
+    <dimen name="hdpi_32dip">32dip</dimen>
+    <dimen name="hdpi_43dip">43dip</dimen>
+
+    <dimen name="font_8">7dip</dimen>
+    <dimen name="font_9">8dip</dimen>
+    <dimen name="font_10">9dip</dimen>
+    <dimen name="font_11">10dip</dimen>
+    <dimen name="font_12">11dip</dimen>
+    <dimen name="font_13">12dip</dimen>
+    <dimen name="font_14">13dip</dimen>
+    <dimen name="font_15">14dip</dimen>
+    <dimen name="font_16">15dip</dimen>
+    <dimen name="font_17">16dip</dimen>
+    <dimen name="font_18">17dip</dimen>
+    <dimen name="font_20">19dip</dimen>
+    <dimen name="font_22">21dip</dimen>
+    <dimen name="font_30">28dip</dimen>
+</resources>

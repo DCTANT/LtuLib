@@ -1,0 +1,19 @@
+<resources>
+	<string name="app_name">util</string>
+
+	<string name="pull_up">Pull Up</string>
+	<string name="pull_up_to_load">Pull Up to Load</string>
+	<string name="release_to_load">Release To Load</string>
+	<string name="pull_down">Pull Down</string>
+	<string name="pull_down_to_refresh">Pull Down to Refresh</string>
+	<string name="release_to_refresh">Release To Refresh</string>
+	<string name="refreshing">Updating...</string>
+	<string name="refresh_complete">Updated.</string>
+
+	<string name="last_update">last update:&#160;</string>
+	<string name="just_now">just now</string>
+	<string name="seconds_ago">&#160;seconds ago</string>
+	<string name="minutes_ago">&#160;minutes ago</string>
+	<string name="hours_ago">&#160;hours ago</string>
+	<string name="days_age">&#160;days ago</string>
+</resources>

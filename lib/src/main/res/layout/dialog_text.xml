@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/transparent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/dialog_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape_circle_dialog_top"
+            android:gravity="center"
+            android:paddingLeft="15dip"
+            android:paddingRight="15dip"
+            android:paddingTop="20dip"
+            android:textSize="@dimen/hdpi_16dip"
+            android:textColor="#0c0c0c"/>
+
+        <LinearLayout
+            android:id="@+id/layout_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="vertical"
+            android:paddingTop="10dip"
+            android:paddingBottom="20dip"
+            android:paddingLeft="25dip"
+            android:paddingRight="25dip">
+            <TextView
+                android:id="@+id/dialog_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="5dip"
+                android:textSize="@dimen/hdpi_14dip"
+                android:textColor="#595959"
+                android:textColorHint="#c3c3c3"
+                android:lineSpacingExtra="1dip" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dip"
+            android:background="#eeeeee" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/dialog_cancel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@+id/line"
+                android:background="@drawable/shape_circle_dialog_bottomleft"
+                android:padding="10dip"
+                android:text="取消"
+                android:textSize="@dimen/hdpi_16dip"
+                android:textColor="#2181f7" />
+            <Button
+                android:id="@+id/dialog_commit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/line"
+                android:background="@drawable/shape_circle_dialog_bottomright"
+                android:padding="10dip"
+                android:text="确定"
+                android:textSize="@dimen/hdpi_16dip"
+                android:textColor="#2181f7" />
+
+            <ImageView
+                android:id="@+id/line"
+                android:layout_width="0.5dip"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/dialog_commit"
+                android:layout_alignTop="@+id/dialog_commit"
+                android:layout_centerInParent="true"
+                android:background="#eeeeee" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+</LinearLayout>

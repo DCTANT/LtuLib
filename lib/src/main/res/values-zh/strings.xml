@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!--<string name="pull_up">上拉</string>-->
+	<!--<string name="pull_up_to_load">上拉加载</string>-->
+	<!--<string name="release_to_load">释放加载</string>-->
+	<!--<string name="pull_down">下拉</string>-->
+	<!--<string name="pull_down_to_refresh">下拉刷新</string>-->
+	<!--<string name="release_to_refresh">释放刷新</string>-->
+	<!--<string name="refreshing">加载中...</string>-->
+	<!--<string name="refresh_complete">更新完成.</string>-->
+
+	<!--<string name="last_update">上次更新:&#160;</string>-->
+	<!--<string name="just_now">刚刚</string>-->
+	<!--<string name="seconds_ago">&#160;秒前</string>-->
+	<!--<string name="minutes_ago">&#160;分钟前</string>-->
+	<!--<string name="hours_ago">&#160;小时前</string>-->
+	<!--<string name="days_age">&#160;天前</string>-->
+</resources>
